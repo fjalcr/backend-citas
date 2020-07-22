@@ -4,7 +4,8 @@
   "description": "Backend en Mongo y Express",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "author": "Juan De la torre",
   "license": "ISC",
@@ -15,5 +16,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "heroku-run-build-script": true
 }
