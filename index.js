@@ -42,6 +42,7 @@ app.use('/', routes())
 
 
 // puerto y arrancar el servidor
-app.listen(4000, () => {
+let portDeploy = process.env.PORT || 4000;
+app.listen(portDeploy, () => {
     console.log('Servidor funcionando')
 })
