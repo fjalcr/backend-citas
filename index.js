@@ -27,7 +27,7 @@ app.use(cors());
 
 // Conectar a mongodb
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/veterinaria', {
+mongoose.connect('mongodb+srv://citasUser:U536mrHmNJQu1q2q@citas.uipju.mongodb.net/<dbname>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
